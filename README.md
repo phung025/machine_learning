@@ -9,13 +9,18 @@ In here, you can find youtube videos discussing ML that I found interesting and 
 - [ ] [But what *is* a Neural Network? | Deep learning, chapter 1](https://www.youtube.com/watch?v=aircAruvnKk)
 - [ ] [Machine Learning for Flappy Bird using Neural Network & Genetic Algorithm](https://www.youtube.com/watch?v=aeWmdojEJf0)
 
-### Some of my notes on machine learning
+### My notes on machine learning topics
 - [ ] [Supervised learning & unsupervised learning](./notes/machine_learning.pdf)
 - [ ] [Simple Linear Regression (SLR)](./notes/simple_linear_regression.pdf)
 
-### Some videos on topics about probability and statistics
+### Videos on topics about probability and statistics
 - [ ] [Statistics 101: Understanding Covariance](https://www.youtube.com/watch?v=xGbpuFNR1ME)
 - [ ] [Statistics 101: Understanding Correlation](https://www.youtube.com/watch?v=4EXNedimDMs)
 
 ### Some machine learning papers
 - [ ] [A few useful things to know about machine learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+
+### Some useful online courses
+- [ ] [Learning Python for Data Analysis and Visualization](https://www.udemy.com/learning-python-for-data-analysis-and-visualization/learn/v4/overview)
+- [ ] [Machine Learning](https://www.coursera.org/learn/machine-learning/home)
+- [ ] [Basic Statistics](https://www.coursera.org/learn/basic-statistics/home)
