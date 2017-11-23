@@ -45,21 +45,20 @@ def learning_algorithm_pearsons_r(x, y, data):
     # Compute intercepts and regression coefficients
     b = r*(sd_y/sd_x)
     a = m_y - (b*m_x)
-    print('a=',a)
-    print('b=',b)
     def hypothesis(n):
         return a+(b*n)
+    print("h(x)=",a,"+",b,"x")
     
     return hypothesis
 
 # Open input data
-training_data = DataFrame.from_csv('test3.csv', index_col=None)
+training_data = DataFrame.from_csv('train2.csv', index_col=None)
 
 # Get hypothesis from training data
 hypothesis_func = learning_algorithm_pearsons_r(x='x',y='y', data=training_data)
 
 # Run the hypothesis function on the test set
-test_data = DataFrame.from_csv('train2.csv', index_col=None)
+test_data = DataFrame.from_csv('test2.csv', index_col=None)
 col_names = list(test_data.columns)
 col_names.append('y_estimated')
 test_data = test_data.reindex(columns=col_names)
@@ -67,3 +66,4 @@ estimated_list = list(test_data['x'])
 for i in range(0, len(estimated_list)):
     estimated_list[i] = hypothesis_func(estimated_list[i])
 test_data['y_estimated'] = estimated_list
+print(test_data)
