@@ -6,6 +6,7 @@ In here, you can find youtube videos discussing ML that I found interesting and 
 
 ### What is machine learning?
 - [ ] [What is machine learning? - OxfordSparks](https://www.youtube.com/watch?v=f_uwKZIAeM0)
+- [ ] [Hello World - Machine Learning Recipes #1](https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLIeGtxpvyG-KmrVV0AdYJ0LzwrgQngsZX)
 - [ ] [But what *is* a Neural Network? | Deep learning, chapter 1](https://www.youtube.com/watch?v=aircAruvnKk)
 - [ ] [Machine Learning for Flappy Bird using Neural Network & Genetic Algorithm](https://www.youtube.com/watch?v=aeWmdojEJf0)
 
@@ -16,6 +17,7 @@ In here, you can find youtube videos discussing ML that I found interesting and 
 ### Videos on topics about probability and statistics
 - [ ] [Statistics 101: Understanding Covariance](https://www.youtube.com/watch?v=xGbpuFNR1ME)
 - [ ] [Statistics 101: Understanding Correlation](https://www.youtube.com/watch?v=4EXNedimDMs)
+- [ ] [Statistics 101: Multiple Regression](https://www.youtube.com/watch?v=dQNpSa-bq4M&list=PLIeGtxpvyG-IqjoU8IiF0Yu1WtxNq_4z-)
 
 ### Some machine learning papers
 - [ ] [A few useful things to know about machine learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
