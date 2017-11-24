@@ -12,7 +12,7 @@ In here, you can find youtube videos discussing ML that I found interesting and 
 ### My notes on machine learning topics
 - [ ] [Supervised learning & unsupervised learning](./notes/machine_learning.pdf)
 - [ ] [Simple Linear Regression (SLR)](./notes/simple_linear_regression.pdf)
-
+- [ ] [Multivariate Regression (MR)](./notes/multivariate_regression.pdf)
 ### Videos on topics about probability and statistics
 - [ ] [Statistics 101: Understanding Covariance](https://www.youtube.com/watch?v=xGbpuFNR1ME)
 - [ ] [Statistics 101: Understanding Correlation](https://www.youtube.com/watch?v=4EXNedimDMs)
