@@ -11,7 +11,7 @@ In here, you can find youtube videos discussing ML that I found interesting and 
 - [ ] [Machine Learning for Flappy Bird using Neural Network & Genetic Algorithm](https://www.youtube.com/watch?v=aeWmdojEJf0)
 
 ### My notes on machine learning topics
-- [ ] [Supervised learning & unsupervised learning](./notes/machine_learning.pdf)
+- [ ] [Machine Learning](./notes/machine_learning.pdf)
 - [ ] [Simple Linear Regression (SLR)](./notes/simple_linear_regression.pdf)
 - [ ] [Multivariate Regression (MR)](./notes/multivariate_regression.pdf)
 ### Videos on topics about probability and statistics
