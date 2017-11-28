@@ -17,6 +17,7 @@ In here, you can find youtube videos discussing ML that I found interesting and 
 ### Videos on topics about probability and statistics
 - [ ] [Statistics 101: Understanding Covariance](https://www.youtube.com/watch?v=xGbpuFNR1ME)
 - [ ] [Statistics 101: Understanding Correlation](https://www.youtube.com/watch?v=4EXNedimDMs)
+- [ ] [Statistics 101: Simple Linear Regression](https://www.youtube.com/watch?v=ZkjP5RJLQF4&list=PLIeGtxpvyG-LoKUpV0fSY8BGKIMIdmfCi)
 - [ ] [Statistics 101: Multiple Regression](https://www.youtube.com/watch?v=dQNpSa-bq4M&list=PLIeGtxpvyG-IqjoU8IiF0Yu1WtxNq_4z-)
 
 ### Some machine learning papers
