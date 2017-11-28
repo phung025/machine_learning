@@ -38,6 +38,11 @@ Finally, if you like this repository and want to use it as a guide to learn mach
 - [ ] [Machine Learning](https://www.coursera.org/learn/machine-learning/home)
 
 ## Books to Read & Apply :books:
+### 1. Probability and Statistics
+- [ ] [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os) Teaches basic statistics, linear regression, multiple regression, and logistic regression.
+### 2. Programming
+- [ ] [Python for Informatics](http://www.py4inf.com) Basic python programming and topics on web crawling, web scrapping, etc.
+### 3. Machine Learning
 - [ ] [Master Machine Learning Algorithms](https://machinelearningmastery.com/master-machine-learning-algorithms/) Great book that does not focus heavily on math but teach how machine learning algorithms work.
 
 ## Some Machine Learning Papers :page_facing_up:
