@@ -12,21 +12,21 @@ Finally, if you like this repository and want to use it as a guide to learn mach
 - [ ] [But what \*is\* a Neural Network? | Deep learning, chapter 1](https://www.youtube.com/watch?v=aircAruvnKk)
 - [ ] [Machine Learning for Flappy Bird using Neural Network & Genetic Algorithm](https://www.youtube.com/watch?v=aeWmdojEJf0)
 
-## Videos on Topics About Probability and Statistics
+## Videos on Topics About Probability and Statistics :tv:
 - [ ] [Statistics 101: Understanding Covariance](https://www.youtube.com/watch?v=xGbpuFNR1ME)
 - [ ] [Statistics 101: Understanding Correlation](https://www.youtube.com/watch?v=4EXNedimDMs)
 - [ ] [Statistics 101: Simple Linear Regression](https://www.youtube.com/watch?v=ZkjP5RJLQF4&list=PLIeGtxpvyG-LoKUpV0fSY8BGKIMIdmfCi)
 - [ ] [Statistics 101: Multiple Regression](https://www.youtube.com/watch?v=dQNpSa-bq4M&list=PLIeGtxpvyG-IqjoU8IiF0Yu1WtxNq_4z-)
 
-## My Notes for Machine Learning Topics
+## My Notes for Machine Learning Topics :notebook:
 - [ ] [Machine Learning](./notes/machine_learning.pdf)
 - [ ] [Simple Linear Regression (SLR)](./notes/simple_linear_regression.pdf)
 - [ ] [Multivariate Regression (MR)](./notes/multivariate_regression.pdf)
 
-## My Notes for Linear Algebra
+## My Notes for Linear Algebra :notebook:
 - [ ] [Matrices](./notes/matrices.pdf)
 
-## Courses to Tackle! (Take These Courses from Top to Bottom)
+## Courses to Tackle! (Take These Courses from Top to Bottom) :mortar_board:
 ### 1. Probability and Statistics
 - [ ] [Basic Statistics](https://www.coursera.org/learn/basic-statistics/home)
 ### 2. Python Programming
@@ -37,9 +37,9 @@ Finally, if you like this repository and want to use it as a guide to learn mach
 ### 4. Machine Learning
 - [ ] [Machine Learning](https://www.coursera.org/learn/machine-learning/home)
 
-## Books to Read & Apply
-- [ ] [Master Machine Learning Algorithms](https://machinelearningmastery.com/master-machine-learning-algorithms/)
+## Books to Read & Apply :books:
+- [ ] [Master Machine Learning Algorithms](https://machinelearningmastery.com/master-machine-learning-algorithms/) Great book that does not focus heavily on math but teach how machine learning algorithms work.
 
-## Some Machine Learning Papers
+## Some Machine Learning Papers :page_facing_up:
 - [ ] [A few useful things to know about machine learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
 
