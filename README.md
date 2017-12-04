@@ -18,8 +18,8 @@ Finally, if you like this repository and want to use it as a guide to learn mach
 - [ ] [Statistics 101: Simple Linear Regression](https://www.youtube.com/watch?v=ZkjP5RJLQF4&list=PLIeGtxpvyG-LoKUpV0fSY8BGKIMIdmfCi)
 - [ ] [Statistics 101: Multiple Regression](https://www.youtube.com/watch?v=dQNpSa-bq4M&list=PLIeGtxpvyG-IqjoU8IiF0Yu1WtxNq_4z-)
 
-## My Notes for Machine Learning Topics :notebook:
-- [ ] [Machine Learning](./notes/machine_learning.pdf)
+## My Notes for Topics in Machine Learning :notebook:
+- [ ] [Machine Learning (ML)](./notes/machine_learning.pdf)
 - [ ] [Simple Linear Regression (SLR)](./notes/simple_linear_regression.pdf)
 - [ ] [Multivariate Regression (MR)](./notes/multivariate_regression.pdf)
 
