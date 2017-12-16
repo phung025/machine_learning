@@ -20,6 +20,7 @@ Finally, if you like this repository and want to use it as a guide to learn mach
 
 ## My Notes for Topics in Machine Learning :notebook:
 - [ ] [Machine Learning (ML)](./notes/machine_learning.pdf)
+- [ ] [Gradient Descent](./notes/gradient_descent.pdf)
 - [ ] [Simple Linear Regression (SLR)](./notes/simple_linear_regression.pdf)
 - [ ] [Multivariate Regression (MR)](./notes/multivariate_regression.pdf)
 
