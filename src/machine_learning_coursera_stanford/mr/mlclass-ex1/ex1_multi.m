@@ -54,7 +54,6 @@ fprintf('Normalizing Features ...\n');
 % Add intercept term to X
 X = [ones(m, 1) X];
 
-
 %% ================ Part 2: Gradient Descent ================
 
 % ====================== YOUR CODE HERE ======================
@@ -107,7 +106,6 @@ fprintf('\n');
 
 price = ([1, 1650, 3] - [0 mu]) ./ [1 sigma] * theta;
 
-
 % ============================================================
 
 fprintf(['Predicted price of a 1650 sq-ft, 3 br house ' ...
@@ -151,7 +149,6 @@ fprintf('\n');
 % Estimate the price of a 1650 sq-ft, 3 br house
 % ====================== YOUR CODE HERE ======================
 price = [1 1650 3] * theta;
-
 
 % ============================================================
 
