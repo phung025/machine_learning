@@ -23,6 +23,7 @@ Finally, if you like this repository and want to use it as a guide to learn mach
 - [ ] [Gradient Descent](./notes/gradient_descent.pdf)
 - [ ] [Simple Linear Regression (SLR)](./notes/simple_linear_regression.pdf)
 - [ ] [Multivariate Regression (MR)](./notes/multivariate_regression.pdf)
+- [ ] [Logistic Regression (Logit)](./notes/logistic_regression.pdf)
 
 ## My Notes for Linear Algebra :notebook:
 - [ ] [Matrices](./notes/matrices.pdf)
