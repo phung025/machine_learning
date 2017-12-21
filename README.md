@@ -50,3 +50,7 @@ Finally, if you like this repository and want to use it as a guide to learn mach
 ## Some Machine Learning Papers :page_facing_up:
 - [ ] [A few useful things to know about machine learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
 
+## Cheat Sheets :page_with_curl:
+- [ ] [Python For Data Science Cheat Sheet - NumPy Basics](./cheat_sheets/Numpy_Python_Cheat_Sheet)
+- [ ] [Python For Data Science Cheat Sheet - SciPy - Linear Algebra](./cheat_sheets/Python_SciPy_Cheat_Sheet_Linear_Algebra)
+
