@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2017.12.22)  22 DEC 2017 21:40
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2017.12.22)  23 DEC 2017 02:37
 entering extended mode
 **./neural_network.tex
 (neural_network.tex
@@ -661,7 +661,14 @@ s
 \f@nch@O@erf=\skip72
 \f@nch@O@olf=\skip73
 \f@nch@O@orf=\skip74
-) (neural_network.aux)
+) (neural_network.aux
+
+LaTeX Warning: Label `labelname' multiply defined.
+
+
+LaTeX Warning: Label `labelname' multiply defined.
+
+)
 \openout1 = `neural_network.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -739,14 +746,67 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-] [2] (neural_network.aux) ) 
-Here is how much of TeX's memory you used:
- 16129 strings out of 427839
- 330319 string characters out of 3147812
- 406476 words of memory out of 3000000
- 19821 multiletter control sequences out of 15000+200000
- 28699 words of font info for 36 fonts, out of 3000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 55i,12n,67p,438b,639s stack positions out of 5000i,500n,10000p,200000b,50000s
+] [2]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [3]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [4] [5] (neural_network.aux)
 
-Output written on neural_network.pdf (2 pages).
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 16563 strings out of 427839
+ 337027 string characters out of 3147812
+ 552764 words of memory out of 3000000
+ 20255 multiletter control sequences out of 15000+200000
+ 29153 words of font info for 38 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 55i,12n,68p,606b,950s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on neural_network.pdf (5 pages).
