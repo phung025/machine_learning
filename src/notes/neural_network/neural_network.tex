@@ -465,6 +465,7 @@
 	\end{center}
 	%%%%%%%% NEURAL NETWORK EXAMPLE %%%%%%%%
 	
+	\section*{EXAMPLE OF NEURAL NETWORK APPLICATION IN BOOLEAN OPERATOR}
 	Consider an example of a neural network that compute boolean operator AND with two inputs of values representing TRUE or FALSE $a_1^{(1)},a_2^{(1)}\in \{0,1\}$ and the output $y=a_1^{(1)}\wedge a_2^{(1)}$:
 	
 	%%%%%%%% NEURAL NETWORK COMPUTE AND %%%%%%%%
@@ -515,5 +516,65 @@
 	\end{center}
 
 	Consider a neural network that compute the boolean operator $(\neg a_1^{(1)}) \wedge (\neg a_2^{(1)})$ and the boolean operator $a_1^{(1)} \vee a_2^{(1)}$ respectively:
+	
+	%%%%%%%% NEURAL NETWORK COMPUTE (NOT X_1) AND (NOT X_2) %%%%%%%%
+	\begin{center}
+		\def\layersep{4cm}
+		\begin{tikzpicture}[shorten >=1pt,->,draw=black!50, node distance=\layersep]
+		\tikzstyle{every pin edge}=[<-,shorten <=1pt]
+		\tikzstyle{neuron}=[draw, circle,fill=white!100,minimum size=25pt,inner sep=2pt]
+		\tikzstyle{input neuron}=[neuron];
+		\tikzstyle{output neuron}=[neuron];
+		\tikzstyle{hidden neuron}=[neuron];
+		\tikzstyle{annot} = [text width=4em, text centered]
+		
+		% Draw the input layer nodes
+		\foreach \name/\y in {0,...,2} {
+			\setcounter{cnt}{-\y *2};
+			\node[input neuron] (I-\name) at (0,\value{cnt}) {$a_\y^{(1)}$};
+		}
+		
+		% Draw the output layer node
+		\node[output neuron, right of=I-1] (O) {$a_1^{(2)}$};
+		
+		% Connect every node in the input layer with output node
+		\path (I-0) edge node {10} (O);
+		\path (I-1) edge node {-20} (O);
+		\path (I-2) edge node {-20} (O);
+		\end{tikzpicture}
+	\end{center}
+	%%%%%%%% NEURAL NETWORK COMPUTE (NOT X_1) AND (NOT X_2) %%%%%%%%
+	
+	%%%%%%%% NEURAL NETWORK COMPUTE X_1 OR X_2 %%%%%%%%
+	\begin{center}
+		\def\layersep{4cm}
+		\begin{tikzpicture}[shorten >=1pt,->,draw=black!50, node distance=\layersep]
+		\tikzstyle{every pin edge}=[<-,shorten <=1pt]
+		\tikzstyle{neuron}=[draw, circle,fill=white!100,minimum size=25pt,inner sep=2pt]
+		\tikzstyle{input neuron}=[neuron];
+		\tikzstyle{output neuron}=[neuron];
+		\tikzstyle{hidden neuron}=[neuron];
+		\tikzstyle{annot} = [text width=4em, text centered]
+		
+		% Draw the input layer nodes
+		\foreach \name/\y in {0,...,2} {
+			\setcounter{cnt}{-\y *2};
+			\node[input neuron] (I-\name) at (0,\value{cnt}) {$a_\y^{(1)}$};
+		}
+		
+		% Draw the output layer node
+		\node[output neuron, right of=I-1] (O) {$a_1^{(2)}$};
+		
+		% Connect every node in the input layer with output node
+		\path (I-0) edge node {-10} (O);
+		\path (I-1) edge node {20} (O);
+		\path (I-2) edge node {20} (O);
+		\end{tikzpicture}
+	\end{center}
+	%%%%%%%% NEURAL NETWORK COMPUTE X_1 OR X_2 %%%%%%%%
+	
+	Putting together these 3 neural networks that compute $a_1^{(1)}\wedge a_2^{(1)}$, $(\neg a_1^{(1)})\wedge (\neg a_2^{(1)})$, and $a_1^{(1)}\vee a_2^{(1)}$, we can create a new neural network that computes  $a_1^{(1)}\oplus a_2^{(1)}$ (EXCLUSIVE OR):
+	
+	\section*{MULTI-CLASS CLASSIFICATION PROBLEM IN NEURAL NETWORK}
 	
 \end{document}
