@@ -5,8 +5,8 @@
 \usepackage{hyphenat}
 \usepackage{ragged2e}
 \RaggedRight
-
 \usepackage{caption}
+\usepackage{calc} % Used for calculation
 
 % These commands change the font. If you do not have Garamond on your computer, you will need to install it.
 %\usepackage{garamondx}
@@ -311,7 +311,7 @@
 	a_3^{(2)} = g(\Theta_{30}^{(1)} a_0^{(1)} + \Theta_{31}^{(1)} a_1^{(1)} + \Theta_{32}^{(1)} a_2^{(1)} + \Theta_{33}^{(1)} a_3^{(1)}) = g(z_3^{(2)})
 	\end{equation}
 	\begin{equation}
-	h_\Theta (x) = a_1^{(3)}  = g(\Theta_{10}^{(2)} a_0^{(2)} + \Theta_{11}^{(2)} a_1^{(2)} + \Theta_{12}^{(2)} a_2^{(2)} + \Theta_{13}^{(2)} a_3^{(2)}) = g(z^{(3)})
+	h_\Theta (a^{(1)}) = a_1^{(3)}  = g(\Theta_{10}^{(2)} a_0^{(2)} + \Theta_{11}^{(2)} a_1^{(2)} + \Theta_{12}^{(2)} a_2^{(2)} + \Theta_{13}^{(2)} a_3^{(2)}) = g(z^{(3)})
 	\end{equation}
 	
 	When we consider $a_1^{(2)}$, $a_2^{(2)}$, $a_3^{(2)}$ as a whole, we can see the vectorized computation of the layer 2 (hidden layer) of the neural network as $\Theta^{(1)} a^{(1)}$ with $\Theta^{(1)}=\begin{pmatrix} \Theta_{10}^{(1)} & \Theta_{11}^{(1)} & \Theta_{12}^{(1)} & \Theta_{13}^{(1)} \\ \Theta_{20}^{(1)} & \Theta_{21}^{(1)} & \Theta_{22}^{(1)} & \Theta_{23}^{(1)} \\ \Theta_{30}^{(1)} & \Theta_{31}^{(1)} & \Theta_{32}^{(1)} & \Theta_{33}^{(1)} \\ \end{pmatrix}$ and $a^{(1)}=\begin{pmatrix} a_0^{(1)} \\ a_1^{(1)} \\ a_2^{(1)} \\ a_3^{(1)} \\ \end{pmatrix}$
@@ -320,7 +320,7 @@
 	
 	After that, since we define the bias neuron in each layer as 1 by default, we'll add $a_0^{(2)}=1$ into the newly computed vector $a^{(2)}$.
 	
-	Finally, the hypothesis would be the activation function(s) of the output layer, which can be computed as follows: $z^{(3)}=\Theta^{(2)} a^{(2)}$ and $h_\Theta (x)=a^{(3)}=g(z^{(3)})$
+	Finally, the hypothesis would be the activation function(s) of the output layer, which can be computed as follows: $z^{(3)}=\Theta^{(2)} a^{(2)}$ and $h_\Theta (a^{(1)})=a^{(3)}=g(z^{(3)})$
 	
 	This process of computing $h_\Theta (x)$ is called \underline{forward propagation}: we start with the activations of the input units and forward propagate that to the hidden layers and compute the activations of the hidden layers and then forward propagate to compute activation(s) of the output layer. 
 	
@@ -464,5 +464,56 @@
 		\end{tikzpicture}
 	\end{center}
 	%%%%%%%% NEURAL NETWORK EXAMPLE %%%%%%%%
+	
+	Consider an example of a neural network that compute boolean operator AND with two inputs of values representing TRUE or FALSE $a_1^{(1)},a_2^{(1)}\in \{0,1\}$ and the output $y=a_1^{(1)}\wedge a_2^{(1)}$:
+	
+	%%%%%%%% NEURAL NETWORK COMPUTE AND %%%%%%%%
+	\begin{center}
+		\def\layersep{4cm}
+		\begin{tikzpicture}[shorten >=1pt,->,draw=black!50, node distance=\layersep]
+		\tikzstyle{every pin edge}=[<-,shorten <=1pt]
+		\tikzstyle{neuron}=[draw, circle,fill=white!100,minimum size=25pt,inner sep=2pt]
+		\tikzstyle{input neuron}=[neuron];
+		\tikzstyle{output neuron}=[neuron];
+		\tikzstyle{hidden neuron}=[neuron];
+		\tikzstyle{annot} = [text width=4em, text centered]
+		
+		% Draw the input layer nodes
+		\newcounter{cnt};
+		\foreach \name/\y in {0,...,2} {
+			\setcounter{cnt}{-\y *2};
+			\node[input neuron] (I-\name) at (0,\value{cnt}) {$a_\y^{(1)}$};
+		}
+				
+		% Draw the output layer node
+		\node[output neuron, right of=I-1] (O) {$a_1^{(2)}$};
+		
+		% Connect every node in the input layer with output node
+		\path (I-0) edge node {-30} (O);
+		\path (I-1) edge node {+20} (O);
+		\path (I-2) edge node {+20} (O);
+		\end{tikzpicture}
+	\end{center}
+	%%%%%%%% NEURAL NETWORK COMPUTE AND %%%%%%%%
+	
+	Therefore, we will have the hypothesis $h_\Theta (x)=g(-30+20a_1^{(1)} +20a_2^{(1)})$ with g is the sigmoid function $g(z)=\frac{1}{1+e^{-z}}$. Consider the truth table for boolean operator AND:
+	
+	\begin{center}
+		\begin{tabular}{ | l | c | r | }
+			\hline
+			$a_1^{(1)}$ & $a_2^{(1)}$ & $h_\Theta (a_1^{(1)})$ \\ 
+			\hline
+			0 & 0 & $g(-30)\approx 0$ \\ 
+			\hline
+			0 & 1 & $g(-10)\approx 0$ \\
+			\hline
+			1 & 0 & $g(-10)\approx 0$ \\
+			\hline
+			1 & 1 & $g(10)\approx 1$ \\
+			\hline
+		\end{tabular}
+	\end{center}
+
+	Consider a neural network that compute the boolean operator $(\neg a_1^{(1)}) \wedge (\neg a_2^{(1)})$ and the boolean operator $a_1^{(1)} \vee a_2^{(1)}$ respectively:
 	
 \end{document}
