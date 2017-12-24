@@ -53,3 +53,4 @@ Finally, if you like this repository and want to use it as a guide to learn mach
 ## Cheat Sheets :page_with_curl:
 - [ ] [Python For Data Science Cheat Sheet - NumPy Basics](./cheat_sheets/Numpy_Python_Cheat_Sheet.pdf)
 - [ ] [Python For Data Science Cheat Sheet - SciPy - Linear Algebra](./cheat_sheets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf)
+- [ ] [Python For Data Science Cheat Sheet - Matplotlib](./cheat_sheets/Python_Matplotlib_Cheat_Sheet.pdf)
