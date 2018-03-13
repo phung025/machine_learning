@@ -1,4 +1,4 @@
-# machine_learning
+# Machine Learning Materials
 
 Hello! This repository contains every documents that I've studied in my journey into the field of machine learning (ML). As a CS student, I have planned to learn about machine learning by attending the course offered by my university. However, it was very difficult to get into this class, I knew that being able to get a seat there would be a difficult task. Since then, I decided to study machine learning by myself in case I didn't make it into the course. 
 
