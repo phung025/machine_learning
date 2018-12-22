@@ -48,7 +48,8 @@ Finally, if you like this repository and want to use it as a guide to learn mach
 - [ ] [Master Machine Learning Algorithms](https://machinelearningmastery.com/master-machine-learning-algorithms/) Great book that does not focus heavily on math but teach how machine learning algorithms work.
 
 ## Some Machine Learning Papers :page_facing_up:
-- [ ] [A few useful things to know about machine learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+- [ ] [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+- [ ] [Top 10 Algorithms in Data Mining](http://www.cs.uvm.edu/~icdm/algorithms/10Algorithms-08.pdf)
 
 ## Cheat Sheets :page_with_curl:
 - [ ] [Python For Data Science Cheat Sheet - NumPy Basics](./cheat_sheets/Numpy_Python_Cheat_Sheet.pdf)
