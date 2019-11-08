@@ -7,6 +7,8 @@
 \RaggedRight
 \usepackage{caption}
 \usepackage{calc} % Used for calculation
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 % These commands change the font. If you do not have Garamond on your computer, you will need to install it.
 %\usepackage{garamondx}
@@ -95,7 +97,7 @@
 		\item Output wires
 	\end{itemize}
 
-	\underline{Neuron model: logistic unit:}
+	\underline{Neural model: logistic unit:}
 	
 	%%%%%%%% FIGURE 2 %%%%%%%%%
 	\begin{center}
@@ -126,7 +128,7 @@
 		\path [line] (a0) -- (h);
 		\path [line] (desc) -- (x0);
 		\end{tikzpicture}
-		\captionof{figure}{An example of a neuron model}\label{labelname}
+		\captionof{figure}{An example of a neural model}\label{labelname}
 	\end{center}
 	%%%%%%%% FIGURE 2 %%%%%%%%%
 	
@@ -196,7 +198,7 @@
 		
 		\path [line] (a13) -- (h);
 		\end{tikzpicture}
-		\captionof{figure}{An example of a neuron network}\label{labelname}
+		\captionof{figure}{An example of a neural network}\label{labelname}
 	\end{center}
 	%%%%%%%% FIGURE 3 %%%%%%%%%
 	
@@ -226,7 +228,7 @@
 		h_\Theta (x) = a_1^{(3)}  = g(\Theta_{10}^{(2)} a_0^{(2)} + \Theta_{11}^{(2)} a_1^{(2)} + \Theta_{12}^{(2)} a_2^{(2)} + \Theta_{13}^{(2)} a_3^{(2)})
 	\end{equation}
 	
-	Consequently, we can see the matrix of the weights $\Theta$ as a 3-D matrix (sort of) as depicted in figure 4 below.
+	Consequently, we can see the matrix of the weights $\Theta$ as a 3-D matrix as depicted in figure 4 below.
 	
 	%%%%%%%% FIGURE 4 %%%%%%%%%
 	\begin{center}
@@ -576,5 +578,9 @@
 	Putting together these 3 neural networks that compute $a_1^{(1)}\wedge a_2^{(1)}$, $(\neg a_1^{(1)})\wedge (\neg a_2^{(1)})$, and $a_1^{(1)}\vee a_2^{(1)}$, we can create a new neural network that computes  $a_1^{(1)}\oplus a_2^{(1)}$ (EXCLUSIVE OR):
 	
 	\section*{MULTI-CLASS CLASSIFICATION PROBLEM IN NEURAL NETWORK}
+	
+	One example for a multi-class classification problem is the digit recognition problem where we have a classifier that recognize 10 different digits from 0-9. 
+	
+	Another example of a multi-class classification problem would be the task of classifying picture of a pedestrian, car, motorcycle, and truck. In this problem, we want to build a neural network of 4 output units where $h_\Theta (x) \in \mathbb{R}^4 $.
 	
 \end{document}
